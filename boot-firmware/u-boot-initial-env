@@ -11,7 +11,6 @@ boot_prefixes=/ /boot/
 boot_script_dhcp=boot.scr.uimg
 boot_scripts=boot.scr.uimg boot.scr
 boot_syslinux_conf=extlinux/extlinux.conf
-boot_targets=mmc0 usb0 
 bootcmd=run distro_bootcmd
 bootcmd_embedded=bootembedded
 bootcmd_mmc0=devnum=0; run mmc_boot
